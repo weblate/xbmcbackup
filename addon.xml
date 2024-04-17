@@ -29,6 +29,7 @@ Can add suffix to backup folder names
 translations sync
 Minor UI fixes
 Fixed Dropbox tokens expiring by using refresh tokens
+Always recommend restart after a restore
 </news>
     <summary lang="ar_SA">إنسخ إحتياطياً قاعده بيانات إكس بى إم سى وملفات اﻹعدادات فى حاله وقوع إنهيار مع إمكانيه اﻹسترجاع</summary>
     <summary lang="bg_BG">Добавката може да създава резервни копия и възстановява базата данни и настройките на Kodi, в случай на срив или повреда на файловете.</summary>
