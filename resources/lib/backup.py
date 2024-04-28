@@ -228,7 +228,7 @@ class XbmcBackup:
                     # copy just this file from the remote vfs
                     self.transferSize = self.remote_vfs.fileSize(self.remote_base_path + self.restore_point)
                     zipFile = []
-                    zipFile.append({'file': self.remote_base_path + self.restore_point, 'size': self.transferSize})
+                    zipFile.append({'file': self.remote_base_path + self.restore_point, 'size': self.transferSize, 'is_dir': False})
 
                     # set transfer size
                     self.transferLeft = self.transferSize
