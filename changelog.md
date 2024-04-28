@@ -13,6 +13,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 ### Changed
 
 - Dropbox Secret and App Key are trimmed on loading - thanks @rjclark99
+- added additional dialog information when gathering files for a Restore. This doesn't fix the speed which these happen since that is related to the platform but does provide more info that it's working. 
+
+### Fixed
+
+- issue where Zip file restores were failing due to a missing `is_dir` attribute
 
 ## [Version 1.7.0](https://github.com/robweber/xbmcbackup/compare/matrix-1.6.8...robweber:matrix-1.7.0)
 
