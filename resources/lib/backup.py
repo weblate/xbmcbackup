@@ -316,6 +316,7 @@ class XbmcBackup:
                     self.xbmc_vfs.set_root(xbmcvfs.translatePath(aDir['path']))
                     if(self.remote_vfs.exists(self.remote_vfs.root_path + aDir['name'] + '/')):
                         # walk the directory
+                        self.progressBar.updateProgress(0, f"{utils.getString(30049)}....{utils.getString(30162)}\n{utils.getString(30163)}: {aDir['name']}")
                         fileManager.walkTree(self.remote_vfs.root_path + aDir['name'] + '/')
                         self.transferSize = self.transferSize + fileManager.fileSize()
 
